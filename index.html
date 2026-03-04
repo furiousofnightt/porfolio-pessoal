@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FuriousOfNight Dev — Portfólio</title>
+  <meta name="description" content="Portfólio de Furious Dev — desenvolvedor front-end especializado em HTML, CSS, JS e deploy.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact-section.css">
+  <link rel="icon" type="image/ico" href="assets/favicon.ico">
+</head>
+
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="header-inner">
+      <h1 class="logo">FuriousOfNight <span class="highlight">Dev</span></h1>
+      <nav id="navMenu" class="nav">
+        <a href="#home">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button id="menuToggle" class="nav-toggle" aria-label="Abrir menu" type="button">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero container">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2>Crio experiências digitais modernas, rápidas e responsivas</h2>
+        <p class="lead">Desenvolvimento de sites, portfólios e landing pages com HTML, CSS e JavaScript. Deploy em GitHub Pages, Vercel, pythonanywhere e Fly.io.</p>
+        <div class="hero-buttons">
+          <a href="#projetos" class="btn primary">Ver Portfólio</a>
+          <a href="#" id="whatsappHero" class="btn outline" type="button">Falar no WhatsApp</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/foto-perfil.jpg" alt="FuriousOfNight Dev" class="profile">
+        <h3>🐉 FuriousOfNight 🐉</h3>
+        <p>Front-End | Correção de CSS | Deploy</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section id="sobre" class="section container">
+    <div class="grid-2">
+      <div>
+        <h3>Sobre mim</h3>
+        <p>Sou o Furious, desenvolvedor front-end em evolução. Trabalho com HTML, CSS, JavaScript e deploy. Transformo ideias em páginas funcionais, acessíveis e visualmente impactantes.</p>
+        <ul class="skills">
+          <li>HTML5 & Acessibilidade</li>
+          <li>CSS3 — Layout e Responsividade</li>
+          <li>JavaScript — Interatividade</li>
+          <li>Flask / Deploy</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contato rápido</h3>
+        <p>Quer um site rápido, limpo e moderno?</p>
+        <p><strong>Email:</strong> Henriquecosta1322d@gmail.com</p>
+        <p><strong>WhatsApp:</strong> <a id="waLink" href="#">Enviar mensagem</a></p>
+        <div class="socials">
+          <a href="https://github.com/furiousofnightt" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.tiktok.com/@furiousofnightgames" target="_blank" rel="noopener noreferrer">TikTok</a>
+          <a href="https://instagram.com/furiousofnightgames" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJETOS ===== -->
+  <section id="projetos" class="section container">
+    <div class="grid-2">
+      <div>
+        <h3>Projetos em destaque</h3>
+        <p class="muted">Clique na imagem para ampliar ou abrir o projeto hospedado.</p>
+      </div>
+    </div>
+    <div class="projects-grid">
+      <!-- Projeto 1 -->
+      <article class="card project-card">
+        <img src="assets/thumbnail-projeto1.png" alt="Lojinha de PCs — Vitrine de produtos com design responsivo e checkout via WhatsApp" loading="lazy">
+        <div class="card-body">
+          <h4>Lojinha de PCs</h4>
+          <p>Vitrine de produtos com design moderno e totalmente responsivo, com sistema de checkout integrado via WhatsApp para facilitar pedidos e orçamentos, além de uma área administrativa exclusiva com login por credenciais.</p>
+          <div class="card-links">
+            <a href="https://fury765.pythonanywhere.com/" target="_blank" rel="noopener noreferrer" class="btn outline btn-sm">Ver Projeto</a>
+            <button class="btn primary btn-sm view-image" type="button" aria-label="Ampliar imagem">Ampliar</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- Projeto 2 -->
+      <article class="card project-card">
+        <img src="assets/thumbnail-projeto2.png" alt="Lojinha Agro — Loja Vitrine simples e responsiva para produtos agro" loading="lazy">
+        <div class="card-body">
+          <h4>Lojinha Agro</h4>
+          <p>Loja vitrine de produtos agro, totalmente responsiva e com área administrativa exclusiva acessada por login com credenciais — ideal para agricultores, pequenos negócios e empreendedores do campo.</p>
+          <div class="card-links">
+            <a href="https://farelojp.pythonanywhere.com/" target="_blank" rel="noopener noreferrer" class="btn outline btn-sm">Ver Projeto</a>
+            <button class="btn primary btn-sm view-image" type="button" aria-label="Ampliar imagem">Ampliar</button>
+          </div>
+        </div>
+      </article>
+
+            <!-- Projeto 3 -->
+      <article class="card project-card">
+        <img src="assets/thumbnail-projeto3.png" alt="CodeBook - Plataforma educacional de aprendizado de front-end" loading="lazy">
+        <div class="card-body">
+          <h4>CodeBook</h4>
+          <p>Plataforma educacional de front-end com exercícios e projetos guiados. Desenvolvido com HTML, CSS e JS, focado em responsividade e experiência do usuário.</p>
+          <div class="card-links">
+            <a href=" https://furiousofnightt.github.io/codebook-furiousofnight/" target="_blank" rel="noopener noreferrer" class="btn outline btn-sm">Ver Projeto</a>
+            <button class="btn primary btn-sm view-image" type="button" aria-label="Ampliar imagem">Ampliar</button>
+          </div>
+        </div>
+      </article>
+
+
+      <!-- Projeto 4 -->
+      <article class="card project-card">
+        <img src="assets/thumbnail-projeto4.png" alt="Dashboard Administrativo - Interface administrativa moderna com gráficos e análises" loading="lazy">
+        <div class="card-body">
+          <h4>Joguinho Jokenpô</h4>
+          <p>Jogo de Pedra, Papel e Tesoura interativo, com placar em tempo real, escolhas do jogador e do computador, histórico de partidas e interface responsiva para todas as telas.</p>
+          <div class="card-links">
+            <a href="https://furious777.pythonanywhere.com/" target="_blank" rel="noopener noreferrer" class="btn outline btn-sm">Ver Projeto</a>
+            <button class="btn primary btn-sm view-image" type="button" aria-label="Ampliar imagem">Ampliar</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== SERVIÇOS ===== -->
+  <section id="servicos" class="section container">
+    <div class="grid-2">
+      <div>
+        <h3>Serviços</h3>
+      </div>
+    </div>
+    <div class="services-grid">
+      <div class="service">
+        <h4>Landing Page / Captura</h4>
+        <p>Página rápida com integração ao WhatsApp.</p>
+        <span class="price">R$ 150 – R$ 350</span>
+      </div>
+      <div class="service">
+        <h4>Sites institucionais</h4>
+        <p>Sites modernos para pequenas empresas. O deploy é incluso, porém a hospedagem pode ter custo dependendo do serviço escolhido.</p>
+        <span class="price">R$ 200 – R$ 450</span>
+      </div>
+      <div class="service">
+        <h4>Correções e ajustes</h4>
+        <p>Correção de CSS, responsividade e ajustes visuais.</p>
+        <span class="price">R$ 50 – R$ 150</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section id="contato" class="section container">
+    <div class="grid-2">
+      <div>
+        <h3>Solicitar orçamento</h3>
+        <p>Preencha o formulário abaixo e envie diretamente para meu WhatsApp.</p>
+      </div>
+    </div>
+    <form id="contactForm" class="contact-form" onsubmit="return sendWhatsApp(event);">
+      <div class="form-row">
+        <input type="text" id="nome" placeholder="Seu nome" required>
+        <input type="text" id="assunto" placeholder="Assunto (ex: Landing Page)" required>
+      </div>
+      <input type="text" id="site" placeholder="URL exemplar (se tiver)">
+      <textarea id="mensagem" rows="5" placeholder="Descreva o que precisa..." required></textarea>
+      <button type="submit" class="btn primary">Enviar pelo WhatsApp</button>
+    </form>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-info">
+        <p class="copyright">© <span id="year"></span> FuriousOfNight Dev</p>
+        <p class="footer-tagline">Desenvolvido com persistência e paixão</p>
+      </div>
+      <div class="footer-social">
+        <a href="https://github.com/furiousofnightt" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg width="18" height="18"><use href="assets/social-icons.svg#icon-github"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@furiousofnightgames" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+          <svg width="18" height="18"><use href="assets/social-icons.svg#icon-tiktok"/></svg>
+        </a>
+        <a href="https://instagram.com/furiousofnightgames" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg width="18" height="18"><use href="assets/social-icons.svg#icon-instagram"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script principal -->
+  <script src="js/main.js"></script>
+
+  <!-- === Modal de imagem === -->
+  <div id="imageModal" class="modal">
+    <span class="modal-close" type="button">&times;</span>
+    <img class="modal-content" id="modalImg" alt="Visualização do projeto">
+    <div id="modalCaption" class="modal-caption"></div>
+  </div>
+</body>
+</html>

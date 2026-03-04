@@ -56,7 +56,7 @@ portfolio/
 ## 🚀 Deploy
 
 O site está atualmente hospedado e pode ser acessado em:
-- [Link do Portfolio](https://furiousofnight.github.io/portfolio-pessoal/)
+- [Link do Portfolio](https://furiousofnightt.github.io/portfolio-pessoal/)
 
 ## ⚡ Performance
 
@@ -84,7 +84,7 @@ O site é totalmente responsivo com breakpoints em:
 
 1. Clone o repositório:
 \`\`\`bash
-git clone https://github.com/FuriousOfNightgames/portfolio-pessoal.git
+git clone https://github.com/FuriousOfNightt/portfolio-pessoal.git
 \`\`\`
 
 2. Abra o projeto:
@@ -117,7 +117,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ## 📞 Contato
 
 - Email: Henriquecosta1322d@gmail.com
-- GitHub: [@FuriousOfNight](https://github.com/FuriousOfNightgames)
+- GitHub: [@FuriousOfNight](https://github.com/FuriousOfNightt)
 - Instagram: [@furiousofnightgames](https://instagram.com/furiousofnightgames)
 - TikTok: [@furiousofnightgames](https://www.tiktok.com/@furiousofnightgames)
 
